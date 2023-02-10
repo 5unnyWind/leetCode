@@ -1,18 +1,5 @@
-Promise.resolve().then(() => {
-console.log(0)
-return Promise.resolve(4) // p2
-}).then((res) => {
-console.log(res)
-})
+const a = new Array
+console.log(a.constructor)
 
-Promise.resolve().then(() => {
-console.log(1)
-}).then(() => {
-console.log(2)
-}).then(() => {
-console.log(3)
-}).then(() => {
-console.log(5)
-}).then(() => {
-console.log(6)
-})
+const b = {}
+console.log(b.constructor === Object)
